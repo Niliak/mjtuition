@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Our Lessons</title>
+</head>
+<body>
+	<div class = "navbar"> 
+		<a href="index.html">Home</a><br>
+		<a href="aboutus.html">About our teachers</a><br>
+		<a href="lessons.html">Our Lessons</a><br>
+		<a href="contactus.html">Contact us</a>
+	</div>
+	<br>
+	<h1>Subjects offered</h1><br>
+	<p>Primary Math, Primary Science, Emath, Amath, Physics, Chemistry</p>
+	<h1>Prices</h1><br>
+	<p>Primary classes - $80/class (2hrs/class)</p>
+	<p>Secondary classes - $90/class (2hrs/class)</p>
+
+	<h2 id="trialsignup">Sign up for a trial lesson with us</h2>
+	<form id="trialsignupform">
+		<label for="fullname">Full name of child: </label>
+		<input type="text" name="fullname" required><br>
+		<label for="parentcontactno">Parent's contact number: </label>
+		<input type="tel" id="parentcontactno" name="parentcontactno" pattern="[8/9]{1}[0-9]{7}" required><br>
+
+		<!-- Timings to put in next to subject -->
+		<label for="intsubjects">Interested subjects:</label><br>
+  		<input type="checkbox" id="primath" name="primath" value="primath">
+  		<label for="primath"> Primary Math</label><br>
+  		<input type="checkbox" id="prisci" name="prisci" value="prisci">
+  		<label for="prisci"> Primary Science</label><br>
+  		<input type="checkbox" id="emath" name="emath" value="emath">
+  		<label for="emath"> Emath</label><br>
+  		<input type="checkbox" id="amath" name="amath" value="amath">
+  		<label for="amath"> Amath</label><br>
+  		<input type="checkbox" id="physics" name="physics" value="physics">
+  		<label for="physics"> Physics</label><br>
+  		<input type="checkbox" id="chem" name="chem" value="chem">
+  		<label for="chem"> Chemistry</label><br><br>
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+
+
+	<hr>
+	<footer>
+		<p><a href="contactus.html">Contact us</a> | <a href="index.html#testimonials">Testmonials</a> | <a href="lessons.html#trialsignup">Trial Sign Up</a></p>
+	</footer>
+
+</body>
+</html>
