@@ -1,1 +1,1 @@
-# mjtuition
+MJTuition trial website
