@@ -1,3 +1,31 @@
 /*Selector{
 	Property: value;
 }*/
+
+body{
+	font-family: 'Acme', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+/*.sitebody{
+	background-image: url("background.jpg");
+	background-size: cover;
+	opacity: 0.5;
+}*/
+
+.card{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.card-body{
+	text-align: center;
+	color: black;
+}
+
+
+.navbar{
+	background-color: rgba(187, 238, 251, 1);
+}
+
